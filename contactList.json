@@ -1,0 +1,54 @@
+[
+  {
+    "firstName": "Ali",
+    "lastName": "Gafar",
+    "company": "BMI Services ",
+    "jobTitle": "HR Manager ",
+    "phoneNumberList": null,
+    "emailAddressList": [
+      {
+        "email": "ali@bmi.com",
+        "label": "Work"
+      }
+    ]
+  },
+  {
+    "firstName": "Carlos",
+    "lastName": "Jimenez",
+    "company": "",
+    "jobTitle": "",
+    "phoneNumberList": [
+      {
+        "phoneNo": "412-116-9988",
+        "label": "Mobile"
+      }
+    ],
+    "emailAddressList": null
+  },
+  {
+    "firstName": "David",
+    "lastName": "Sanger",
+    "company": "Argos LLC",
+    "jobTitle": "Sales Manager",
+    "phoneNumberList": [
+      {
+        "phoneNo": "240-133-0011",
+        "label": "Home"
+      },
+      {
+        "phoneNo": "240-112-0123",
+        "label": "Mobile"
+      }
+    ],
+    "emailAddressList": [
+      {
+        "email": "dave.sang@gmail.com",
+        "label": "Home"
+      },
+      {
+        "email": "dsanger@argos.com",
+        "label": "Work"
+      }
+    ]
+  }
+]

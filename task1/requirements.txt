@@ -1,0 +1,12 @@
+Each contact has a first name, last name, company field, job title field, zero or more phone numbers, and zero or more email
+addresses. Each email address has an actual address field and a label so that users can write something
+to indicate how it is related to the contact (like home, mobile, work, etc.). Similarly, each phone number
+also has a field for the number and a field for a label.
+The user of the application should be able to search through the contacts. Add new contacts, update
+existing contacts, and delete old contacts. In addition to this it is important to be able to merge duplicate
+contacts.
+
+
+1. System should allow user to create, update, delete and list all contacts.
+2. System should allow merging of duplicated contacts.
+3. System should print to the console, the Contact data in JSON format, sorted in ascending order of the Last Names.
