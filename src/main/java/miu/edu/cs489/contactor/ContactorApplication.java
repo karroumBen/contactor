@@ -16,9 +16,8 @@ public class ContactorApplication {
     public static void main(String[] args) throws JsonProcessingException {
         SpringApplication.run(ContactorApplication.class, args);
         List<Contact> contactList = prepareContactList();
-        Collections.sort(contactList, Comparator.comparing(Contact::getLastName));
+        contactList.sort(Comparator.comparing(Contact::getLastName));
 
-        contactList.forEach((Contact c) -> System.out.println(c));
         ObjectMapper objectMapper = new ObjectMapper();
         String jsonString = objectMapper.writeValueAsString(contactList);
         System.out.println(jsonString);
